@@ -1,0 +1,4 @@
+POST        /loan             controllers.LoanController.loan
+POST        /offer            controllers.OfferController.makeOffer
+GET         /offer/:id        controllers.OfferController.getOffer(id: String)
+
